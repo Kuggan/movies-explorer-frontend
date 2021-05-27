@@ -35,7 +35,7 @@
 }
 
 .header__link_type_login {
-    color: #FFFFFF;
+    color: #000000;
     background-color: #3DDC84;
     padding: 8px 20px;
     transition: opacity 0.3s ease-in-out;
@@ -43,6 +43,7 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
+    border-radius: 3px;
 }
 
 .header__link_type_login:hover {

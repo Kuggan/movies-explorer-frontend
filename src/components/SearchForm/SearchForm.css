@@ -42,7 +42,7 @@
     max-width: 1044px;
     width:100%;
     background: #2F2F2F;
-    margin: 0px;
+    margin: 20px;
     padding: 0px;
 }
 
@@ -55,7 +55,8 @@
 }
 
 .search__form-input:focus {
-    outline-color: #3456F3;
+    outline-color: #4285F4;
+    
 }
 
 .search__form-button {
