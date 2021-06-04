@@ -86,6 +86,10 @@
     color: #FFFFFF;
     transition: opacity 0.3s ease-in-out;
 }
+.auth__submit-error{
+    color: #EE3465;
+}
+
 
 .auth__submit-button:hover {
     cursor: pointer;

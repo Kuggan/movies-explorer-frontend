@@ -3,6 +3,8 @@
    flex-direction: column;
    max-width: 360px;
    width: 100%;
+  
+   
 
 } 
 .movies__list-poster {
@@ -14,9 +16,14 @@
 
 .movies__list-description {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin: 14px 0 5px 0;
     min-height: 36px;
+    max-width: 360px;
+    width: 100%;
+    
+     
 }
 
 .movies__list-title {
@@ -25,7 +32,15 @@
     font-size: 15px;
     line-height: 18px;
     margin: 0;
+    max-width: 240px;
+    width: 100%;
     color: #FFFFFF;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    align-self: center;
+   
+   
 }
 
 .movies__list-like-button {
@@ -75,8 +90,11 @@
     font-size: 13px;
     line-height: 18px;
     color: #A0A0A0;
-    margin: 0;
-    padding-top: 6px;
+    margin:0px;
+    margin-left: 14px;
+   
+    padding: 0;
+    align-self: center;
     
 }
 @media(max-width: 1100px) {

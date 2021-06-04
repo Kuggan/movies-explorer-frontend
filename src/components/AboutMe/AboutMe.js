@@ -10,14 +10,14 @@ function AboutMe() {
                     <h3 className="about-me__description-title">Владимир</h3>
                     <p className="about-me__description-subtitle">Фронтенд-разработчик, 41 лет</p>
                     <p className="about-me__description-paragraph">Я родился и живу в России, пивовар.
-                                                                   Начинаю свой путь в web-develop.
+                                                                   Начинаю свой путь в web-разработке.
                                                                    </p>
                     <div className="about-me__description-links">
                         <a href="https://www.facebook.com/vladimir.aksyonov/" target="_blank" rel="noreferrer" className="about-me__description-link">Facebook</a>
                         <a href="https://github.com/Kuggan" target="_blank" rel="noreferrer" className="about-me__description-link">Github</a>
                     </div>
                 </div>
-                <img src={student__photo} alt="Юлия" className="about-me__description-photo"/>
+                <img src={student__photo} alt="Владимир" className="about-me__description-photo"/>
             </div>
         </section>
     )
