@@ -41,6 +41,15 @@
     border-color: #3456F3;
     cursor: pointer;
 }
+.movies__error{
+    color:#FFFFFF;
+}
+.movies__not-found{
+    color:#FFFFFF;
+}
+.movies__no-saved{
+    color:#FFFFFF;
+}
 
 @media(max-width: 1279px) {
     .movies__list {

@@ -60,6 +60,7 @@
 .about-me__description-photo {
     border-radius: 10px;
     width: 270px;
+    object-fit: cover;
     height: 327px;
 }
 
